@@ -1247,7 +1247,7 @@ input[type="radio"] + label:before {
 
 a.image {
   overflow: hidden; }
-  a.image img {
+  /* a.image img {
     -moz-transition: -moz-transform 0.2s ease;
     -webkit-transition: -webkit-transform 0.2s ease;
     -ms-transition: -ms-transform 0.2s ease;
@@ -1256,7 +1256,7 @@ a.image {
     -moz-transform: scale(1.075);
     -webkit-transform: scale(1.075);
     -ms-transform: scale(1.075);
-    transform: scale(1.075); }
+    transform: scale(1.075); } */
 
 /* List */
 ol {
