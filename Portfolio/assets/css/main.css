@@ -1276,7 +1276,7 @@ ul {
     list-style: none;
     padding-left: 0; }
     ul.alt li {
-      border-top: solid 1px rgba(210, 215, 217, 0.75);
+      /* border-top: solid 1px rgba(210, 215, 217, 0.75); */
       padding: 0.5em 0; }
       ul.alt li:first-child {
         border-top: 0;
@@ -1361,7 +1361,7 @@ ul.contact {
   padding: 0; }
   ul.contact li {
     text-decoration: none;
-    border-top: solid 1px rgba(210, 215, 217, 0.75);
+    /* border-top: solid 1px rgba(210, 215, 217, 0.75); */
     margin: 1.5em 0 0 0;
     padding: 1.5em 0 0 3em;
     position: relative; }
@@ -2255,7 +2255,7 @@ button,
         transform: rotate(-180deg); }
 
 #menu > ul > li {
-  border-top: solid 1px rgba(210, 215, 217, 0.75);
+  /* border-top: solid 1px rgba(210, 215, 217, 0.75); */
   margin: 0.5em 0 0 0;
   padding: 0.5em 0 0 0; }
   #menu > ul > li > ul {
