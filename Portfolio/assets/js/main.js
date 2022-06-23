@@ -3,6 +3,20 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+const text = document.getElementById('searchable-text');
+const originalText = text.innerHTML;
+const input = document.getElementById('input');
+const button = document.getElementById('search-btn');
+
+// function highlightWord() {
+// 	if(input.value) {
+// 		const word = input.value.trim()
+// 		const regexp = new RegExp(word,'g')
+// 		text.innerHTML = originalText.replace(regexp, `<mark>${word}</mark>`);
+// 	}
+// }
+
+// button.addEventListener('click', highlightWord)
 
 (function($) {
 
@@ -260,3 +274,6 @@
 			});
 
 })(jQuery);
+
+
+
