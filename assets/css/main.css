@@ -2274,3 +2274,15 @@ button,
     margin-top: 0;
     padding-top: 0; }
 
+@media (max-width:650px) {
+  .my-photo {
+    width: 500px !important;
+    height: 700px !important;
+    position: relative;
+  }
+  .content {
+    display: block;  
+    position: relative;
+    margin-top: 375px;
+  }
+}
